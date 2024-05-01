@@ -5,9 +5,9 @@ Cont. from 8.6 Initializing blocks [42.BHF-StatBlocks](https://github.com/Java-P
 
 ## 8.7 Singleton classes  
 
-Very often we encounter the situation when we have a class of which at most one object should ever be created; such objects are called **singletons**.  
+Very often, we encounter situations where we have a class from which at most one object should ever be created; such objects are called **singletons**.
 
-There are at least two approaches to produce such objects. If the object in question is expensive to create and it is possible that it will not be needed at all, we can use lazy evaluation approache:
+There are at least two approaches to produce such objects. If the object in question is expensive to create and it is possible that it will not be needed at all, we can use the lazy evaluation approach:  
 
 ## Listing 43 BGX-Singlet/Connect.java  
 
